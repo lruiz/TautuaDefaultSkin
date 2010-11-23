@@ -1,0 +1,34 @@
+body {
+  font-family: Verdana, Trebuchet;
+}
+
+#Nav {
+  font-size: 1em;
+}
+
+#Content {
+  font-size: 0.9em;
+}
+
+#Content h2 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#Content h3 {
+  font-size: 1.3em;
+}
+
+#Content th {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+#Footer {
+  font-size: 0.8em;
+}
+
+a {
+  text-decoration: none;
+}
+

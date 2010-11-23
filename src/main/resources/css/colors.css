@@ -1,0 +1,54 @@
+html, body {
+  color: #8C8C8C;
+  background-color: #CED8D8;
+}
+
+#Nav {
+  background: #5D5D5D url(../images/grayfade.gif) top left repeat-y;
+}
+
+#Nav, #Nav a, #Footer a {
+  color: #CCCCCC;
+}
+
+#Nav a:hover, #Nav strong {
+  color: #FFFFFF;
+}
+
+#Content {
+  color: #7C7C7C;
+  /*color: #B9ACAC;*/
+}
+
+#Content h1, #Content h2, #Content h3 {
+  /*color: #80E5FF;*/
+  color: #00A4C4;
+}
+
+#Content a:link {
+  background-color:#E0ECFF;
+  color:#206CFF;
+}
+
+#Content a:visited {
+  background-color:#FADCB3;
+  color:#B36D00;
+
+ /*
+ background-color:#F3E7B3;
+ color:#AB8B00;
+ */
+
+ /* morado
+ background-color:#FDE9F4;
+ color:#854F61;
+ */
+}
+
+#Content th, #Content td {
+  border-color: #EEEEEE;
+}
+
+#Footer {
+  background: #5D5D5D url(../images/grayfade.gif) top left repeat-y;
+}

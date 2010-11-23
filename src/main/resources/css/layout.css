@@ -1,0 +1,51 @@
+html, body {
+  margin: 0 0 0 0;/*20px 0 0 0;*/
+  padding: 20px 0 20px 0;/*0;*/
+}
+
+#Frame {
+  width: 840px;
+  margin: 0 auto;
+  background: #fff url(../images/frame_bottom.gif) no-repeat bottom left;
+  border: 12px solid #b5c1c1;
+  overflow:auto;
+}
+
+#Nav {
+  border-bottom: 3px solid #00b0d1;
+}
+
+#Nav ul {
+  padding: 8px 0 8px 13px;
+}
+
+#Nav li {
+  padding:0 2px 0 2px;
+  text-align: left;
+  list-style-type: none;
+  display: inline;
+}
+
+#Content {
+  background: url(../images/bluefade.gif) top left repeat-x;
+  border-top: 3px solid #EEEEEE;
+}
+
+#Content h1 , #Content h2 , #Content h3 , #Content h4 {
+  padding: 5px 15px 10px;
+}
+
+#Content p, #Content table, #Content ul {
+  margin: 5px 15px;
+}
+
+#Content th, #Content td {
+  border-width: 2px;
+  padding: 5px;
+}
+
+#Footer {
+  margin-top: 25px;
+  padding: 5px 0;
+  text-align: center;
+}
