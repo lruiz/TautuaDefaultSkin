@@ -12,7 +12,9 @@ html, body {
 }
 
 #Nav {
-  border-bottom: 3px solid #00b0d1;
+  margin: 15px;
+  border-bottom: 3px solid;
+  float: right;
 }
 
 #Nav ul {
@@ -23,7 +25,7 @@ html, body {
   padding:0 2px 0 2px;
   text-align: left;
   list-style-type: none;
-  display: inline;
+  display: block;
 }
 
 #Content {
@@ -48,4 +50,5 @@ html, body {
   margin-top: 25px;
   padding: 5px 0;
   text-align: center;
+  clear: both;
 }

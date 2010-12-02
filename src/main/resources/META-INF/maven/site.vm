@@ -187,7 +187,9 @@
 #end
 ##
 #macro ( mainMenu $menus )
+  <ul>
   #foreach( $menu in $menus )
+    <li>
     #if ( $menu.name )
       #if ( $menu.img )
         #if( $menu.position )
@@ -230,12 +232,12 @@
         #set ( $img = '<img class="imageLink"' + $src + $alt + $border + $width + $height + "/>" )
 ##
         #if ( $position == "left" )
-        <h5>$img $menu.name</h5>
+        $img $menu.name
         #else
-        <h5>$menu.name $img</h5>
+        $menu.name $img
         #end
       #else
-       <h5>$menu.name</h5>
+       $menu.name
       #end
     #end
     #if ( $menu.items && $menu.items.size() > 0 )
@@ -245,7 +247,9 @@
       #end
     </ul>
     #end
+    </li>
   #end
+  </ul>
 #end
 ##
 #macro ( copyright )

@@ -5,6 +5,7 @@ html, body {
 
 #Nav {
   background: #5D5D5D url(../images/grayfade.gif) top left repeat-y;
+  border-bottom-color: #00b0d1;
 }
 
 #Nav, #Nav a, #Footer a {
