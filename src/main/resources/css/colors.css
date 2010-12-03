@@ -5,10 +5,10 @@ html, body {
 
 #Nav {
   background: #5D5D5D url(../images/grayfade.gif) top left repeat-y;
-  border-bottom-color: #00b0d1;
+  border-left-color: #00b0d1;
 }
 
-#Nav, #Nav a, #Footer a {
+#Nav, #Nav a {
   color: #CCCCCC;
 }
 
@@ -26,24 +26,19 @@ html, body {
   color: #00A4C4;
 }
 
-#Content a:link {
+#Content a:link, #breadcrumbs a:link {
   background-color:#E0ECFF;
   color:#206CFF;
 }
 
-#Content a:visited {
+#Content a:visited, #breadcrumbs a:visited {
   background-color:#FADCB3;
   color:#B36D00;
+}
 
- /*
- background-color:#F3E7B3;
- color:#AB8B00;
- */
-
- /* morado
- background-color:#FDE9F4;
- color:#854F61;
- */
+#publishDate, #projectVersion {
+  background-color:#FDE9F4;
+  color:#854F61;
 }
 
 #Content th, #Content td {
@@ -52,4 +47,5 @@ html, body {
 
 #Footer {
   background: #5D5D5D url(../images/grayfade.gif) top left repeat-y;
+  color: #FFFFFF;
 }

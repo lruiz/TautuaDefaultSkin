@@ -13,7 +13,7 @@ html, body {
 
 #Nav {
   margin: 15px;
-  border-bottom: 3px solid;
+  border-left: 3px solid;
   float: right;
 }
 
@@ -30,15 +30,14 @@ html, body {
 
 #Content {
   background: url(../images/bluefade.gif) top left repeat-x;
-  border-top: 3px solid #EEEEEE;
 }
 
 #Content h1 , #Content h2 , #Content h3 , #Content h4 {
   padding: 5px 15px 10px;
 }
 
-#Content p, #Content table, #Content ul {
-  margin: 5px 15px;
+#Content {
+  padding: 0px 15px;
 }
 
 #Content th, #Content td {
