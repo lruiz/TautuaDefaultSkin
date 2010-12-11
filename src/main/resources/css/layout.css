@@ -1,6 +1,14 @@
 html, body {
-  margin: 0 0 0 0;/*20px 0 0 0;*/
-  padding: 20px 0 20px 0;/*0;*/
+  margin: 0 0 0 0;
+  padding: 20px 0 20px 0;
+}
+
+p, pre {
+  padding: 5px 0px;
+}
+
+ul li {
+  list-style: disc inside;
 }
 
 #Frame {
@@ -33,12 +41,13 @@ html, body {
 }
 
 #Content h1 , #Content h2 , #Content h3 , #Content h4 {
-  padding: 5px 15px 10px;
+  padding: 20px 0px 0px 0px;
 }
 
 #Content {
   padding: 0px 15px;
 }
+
 
 #Content th, #Content td {
   border-width: 2px;

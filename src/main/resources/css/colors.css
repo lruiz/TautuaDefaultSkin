@@ -3,6 +3,10 @@ html, body {
   background-color: #CED8D8;
 }
 
+#Logo a {
+  background-color: transparent;
+}
+
 #Nav {
   background: #5D5D5D url(../images/grayfade.gif) top left repeat-y;
   border-left-color: #00b0d1;
@@ -10,6 +14,10 @@ html, body {
 
 #Nav, #Nav a {
   color: #CCCCCC;
+}
+
+#Nav a {
+  background-color: transparent;
 }
 
 #Nav a:hover, #Nav strong {
@@ -26,12 +34,12 @@ html, body {
   color: #00A4C4;
 }
 
-#Content a:link, #breadcrumbs a:link {
+a:link {
   background-color:#E0ECFF;
   color:#206CFF;
 }
 
-#Content a:visited, #breadcrumbs a:visited {
+a:visited {
   background-color:#FADCB3;
   color:#B36D00;
 }
@@ -47,5 +55,10 @@ html, body {
 
 #Footer {
   background: #5D5D5D url(../images/grayfade.gif) top left repeat-y;
+  color: #FFFFFF;
+}
+
+#Footer a {
+  background-color: transparent;
   color: #FFFFFF;
 }

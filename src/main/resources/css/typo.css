@@ -3,7 +3,11 @@ body {
 }
 
 #Nav {
-  font-size: 1em;
+  font-size: 1.1em;
+}
+
+#Nav strong {
+  font-weight: bold;
 }
 
 #Content {
@@ -30,5 +34,13 @@ body {
 
 a {
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+pre {
+  font-size: 1.2em;
 }
 
