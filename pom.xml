@@ -7,7 +7,7 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>default</name>
+    <name>Tautua Default Skin</name>
     <url>http://www.tautua.org</url>
 
     <organization>
@@ -24,20 +24,4 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-site-plugin</artifactId>
-                <version>3.0-beta-2</version>
-                <dependencies>
-                    <dependency>
-                        <groupId>org.tautua.markdownpapers</groupId>
-                        <artifactId>markdownpapers-doxia-module</artifactId>
-                        <version>0.4.0-SNAPSHOT</version>
-                    </dependency>
-                </dependencies>
-            </plugin>
-        </plugins>
-    </build>
 </project>

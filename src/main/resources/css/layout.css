@@ -1,6 +1,6 @@
 html, body {
   margin: 0 0 0 0;
-  padding: 20px 0 20px 0;
+  padding: 20px 20px;
 }
 
 p, pre {
@@ -11,8 +11,18 @@ ul li {
   list-style: disc inside;
 }
 
+a, #Nav strong, #publishDate, #projectVersion {
+  padding: 2px 4px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+
+table {
+  width: 100%;
+}
+
 #Frame {
-  width: 840px;
   margin: 0 auto;
   background: #fff url(../images/frame_bottom.gif) no-repeat bottom left;
   border: 12px solid #b5c1c1;
@@ -20,20 +30,25 @@ ul li {
 }
 
 #Nav {
-  margin: 15px;
-  border-left: 3px solid;
-  float: right;
+  /*border-left: 3px solid;*/
+  padding: 0 15px;
+  float: left;
 }
 
-#Nav ul {
-  padding: 8px 0 8px 13px;
+#Nav li ul {
+  margin-left: 15px;
 }
 
 #Nav li {
-  padding:0 2px 0 2px;
+  padding:1px 2px;
   text-align: left;
   list-style-type: none;
   display: block;
+}
+
+#Gutter {
+  padding-left: 20em;
+  padding-top: 20px;
 }
 
 #Content {
@@ -41,13 +56,12 @@ ul li {
 }
 
 #Content h1 , #Content h2 , #Content h3 , #Content h4 {
-  padding: 20px 0px 0px 0px;
+  padding-top: 20px;
 }
 
-#Content {
+#Content, #breadcrumbs {
   padding: 0px 15px;
 }
-
 
 #Content th, #Content td {
   border-width: 2px;

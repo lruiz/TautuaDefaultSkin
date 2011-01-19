@@ -1,5 +1,5 @@
 html, body {
-  color: #8C8C8C;
+  color: #7C7C7C;
   background-color: #CED8D8;
 }
 
@@ -7,13 +7,10 @@ html, body {
   background-color: transparent;
 }
 
-#Nav {
-  background: #5D5D5D url(../images/grayfade.gif) top left repeat-y;
-  border-left-color: #00b0d1;
-}
-
 #Nav, #Nav a {
-  color: #CCCCCC;
+  /*background: #F5F6F7 url(../images/grayfade.gif) top left repeat-y; /*#5D5D5D*/
+  /*border-left-color: #00b0d1;*/
+  color: #7C7C7C;
 }
 
 #Nav a {
@@ -21,12 +18,18 @@ html, body {
 }
 
 #Nav a:hover, #Nav strong {
-  color: #FFFFFF;
+  background-color:#FDE9F4;
+  color:#854F61;
 }
 
-#Content {
-  color: #7C7C7C;
-  /*color: #B9ACAC;*/
+#Nav h5 {
+  /*
+  background-color:#FDE9F4;
+  color:#854F61;
+  background-color:#DEE5F2;
+
+  color:#5A6986;*/
+  border-bottom: 2px solid #F5F6F7;
 }
 
 #Content h1, #Content h2, #Content h3 {

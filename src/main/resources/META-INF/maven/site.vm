@@ -191,6 +191,7 @@
   #foreach( $menu in $menus )
     <li>
     #if ( $menu.name )
+      <h5>
       #if ( $menu.img )
         #if( $menu.position )
           #set ( $position = $menu.position )
@@ -239,6 +240,7 @@
       #else
        $menu.name
       #end
+      </h5>
     #end
     #if ( $menu.items && $menu.items.size() > 0 )
     <ul>
@@ -473,13 +475,13 @@
     <body>
         <div id="Frame">
             <div id="Nav">
-                #mainMenu( $decoration.body.menus )
-            </div>
-            <div id="Gutter">
                 <div id="Logo">
                     #banner( $decoration.bannerLeft "bannerLeft" )
                     #banner( $decoration.bannerRight "bannerRight" )
                 </div>
+                #mainMenu( $decoration.body.menus )
+            </div>
+            <div id="Gutter">
                 <div id="breadcrumbs">
                     #publishDate( "left" $decoration.publishDate $decoration.version )
                     <div class="xright">#links( $decoration.body.links )#publishDate( "right" $decoration.publishDate $decoration.version )</div>
