@@ -1,14 +1,25 @@
-html, body {
+html {
   margin: 0 0 0 0;
-  padding: 20px 20px;
+}
+
+body {
+  padding: 30px;
 }
 
 p, pre {
   padding: 5px 0px;
 }
 
+ul, ol {
+  margin: 0;
+}
+
 ul li {
   list-style: disc inside;
+}
+
+ol li {
+  list-style: decimal inside;
 }
 
 a, #Nav strong, #publishDate, #projectVersion {
@@ -18,49 +29,21 @@ a, #Nav strong, #publishDate, #projectVersion {
   -webkit-border-radius: 4px;
 }
 
-table {
-  width: 100%;
-}
-
-#Frame {
-  margin: 0 auto;
-  background: #fff url(../images/frame_bottom.gif) no-repeat bottom left;
-  border: 12px solid #b5c1c1;
-  overflow:auto;
-}
-
-#Nav {
-  /*border-left: 3px solid;*/
-  padding: 0 15px;
-  float: left;
-}
-
-#Nav li ul {
-  margin-left: 15px;
-}
-
-#Nav li {
-  padding:1px 2px;
-  text-align: left;
-  list-style-type: none;
-  display: block;
-}
-
-#Gutter {
-  padding-left: 20em;
-  padding-top: 20px;
+#Breadcrumbs {
+  text-align: right;
 }
 
 #Content {
-  background: url(../images/bluefade.gif) top left repeat-x;
+  padding: 10px;
+}
+
+#Gutter {
+  padding-left: 210px;
 }
 
 #Content h1 , #Content h2 , #Content h3 , #Content h4 {
   padding-top: 20px;
-}
-
-#Content, #breadcrumbs {
-  padding: 0px 15px;
+  margin:0;
 }
 
 #Content th, #Content td {
@@ -73,4 +56,50 @@ table {
   padding: 5px 0;
   text-align: center;
   clear: both;
+}
+
+#Frame {
+  margin: 0 auto;
+  background: #fff url(../images/frame_bottom.gif) no-repeat bottom left;
+  border-width: 1px;
+  border-color: #E5E5E5 #DBDBDB #D2D2D2;
+  overflow: hidden;
+  max-width: 1020px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0 2px 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.4) 0 2px 5px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0 2px 5px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  -khtml-border-radius: 4px;
+}
+
+#Nav {
+  width: 200px;
+  float: left;
+}
+
+#Nav ul {
+  margin-left: 0;
+}
+
+#Nav ul li ul {
+  margin-left: 15px;
+}
+
+#Nav ul li {
+  padding:1px 2px;
+  text-align: left;
+  list-style-type: none;
+  display: block;
+}
+
+.source {
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  padding: 1em;
 }

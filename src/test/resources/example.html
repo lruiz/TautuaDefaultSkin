@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>MarkdownPapers - </title>
+    <style type="text/css" media="all">
+        @import url("../../main/resources/css/reset-min.css");
+        @import url("../../main/resources/css/fonts-min.css");
+        @import url("../../main/resources/css/base-min.css");
+        @import url("../../main/resources/css/layout.css");
+        @import url("../../main/resources/css/typo.css");
+        @import url("../../main/resources/css/colors.css");
+        @import url("./tags.css");
+    </style>
+    <link rel="stylesheet" href="./MarkdownPapers_files/print.css" type="text/css" media="print">
+    <meta name="Date-Revision-yyyymmdd" content="20110330">
+    <meta http-equiv="Content-Language" content="en">
+</head>
+<body>
+<div id="Frame">
+    <div id="Content">
+        <div id="Nav">
+            <div id="Logo">
+                <a href="./MarkdownPapers_files/MarkdownPapers.html" id="bannerLeft">
+                    <img src="./MarkdownPapers_files/Logo.png" alt="Markdown">
+                </a>
+            </div>
+            <ul>
+                <li>
+                    <h5>
+                        MarkdownPapers
+                    </h5>
+                    <ul>
+                        <li class="none">
+                            <strong>Home</strong>
+                        </li>
+                        <li class="none">
+                            <a href="https://github.com/lruiz/MarkdownPapers/downloads" class="externalLink"
+                               title="Download">Download</a>
+                        </li>
+                        <li class="none">
+                            <a href="http://markdown.tautua.org/license.html" title="License">License</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h5>
+                        Development
+                    </h5>
+                    <ul>
+                        <li class="none">
+                            <a href="https://github.com/lruiz/MarkdownPapers" class="externalLink" title="Source Code">Source
+                                Code</a>
+                        </li>
+                        <li class="none">
+                            <a href="https://github.com/lruiz/MarkdownPapers/issues" class="externalLink"
+                               title="Issues">Issues</a>
+                        </li>
+                        <li class="none">
+                            <a href="https://github.com/lruiz/MarkdownPapers/issues" class="externalLink"
+                               title="People">People</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div id="Gutter">
+            <div id="Breadcrumbs">
+
+
+                <div class="xleft">
+                    <span id="publishDate">Last Published: 2011-03-30</span>
+                    &nbsp;| <span id="projectVersion">Version: 1.0-SNAPSHOT</span>
+                </div>
+                <div class="xright"><a href="http://www.tautua.org/" class="externalLink" title="Tautua">Tautua</a>
+
+
+                </div>
+            </div>
+            <div id="Main">
+                <h2>What is MarkdownPapers?
+                    <a name="What_is_MarkdownPapers"></a></h2>
+
+                <p>MarkdownPapers is a java implementation of Markdown language created by <a class="externalLink"
+                                                                                              href="http://daringfireball.net/projects/markdown">John
+                    Gruber</a> which provides
+                    an easy-to-read, easy-to-write plain text format that takes many cues from existing conventions for
+                    marking up plain text in email.
+                </p>
+
+                <p>This implementation consist in parser built from a <a class="externalLink"
+                                                                         href="http://javacc.java.net/">JAVACC</a>
+                    grammar definition that produces an
+                    <a class="externalLink" href="http://en.wikipedia.org/wiki/Abstract_syntax_tree">abstract syntax
+                        tree</a> where transformations are performed following the <a class="externalLink"
+                                                                                      href="http://en.wikipedia.org/wiki/Visitor_pattern">Visitor
+                        Pattern</a>.
+                </p>
+
+                <p>MarkdownPapers stands to be 100% compatible with <a class="externalLink"
+                                                                       href="http://daringfireball.net/projects/markdown/syntax">markdown
+                    1.0.1 spec</a>, but it is in the roadmap
+                    to introduce new features or extensions (time will say).
+                </p>
+
+                <h3>Quick example
+                    <a name="Quick_example"></a></h3>
+
+                <p>The most prominent component would be org.tautu.markdownpapers.Markdown which receives a
+                    java.io.Reader
+                    (input content) and java.io.Writer (output).
+                </p>
+
+                <div class="source"><pre>Reader in = new FileReader("in.md");
+Writer out = new FileWriter("out.html");
+
+Markdown.transform(in, out);
+
+</pre>
+                </div>
+                <h3>Maven dependency
+                    <a name="Maven_dependency"></a></h3>
+
+                <p>You can add markdonwpapers to your project as dependency for immediate use :).
+                </p>
+
+                <div class="source"><pre>&lt;dependency&gt;
+    &lt;groupId&gt;org.tautua.markdownpapers&lt;/groupId&gt;
+    &lt;artifactId&gt;markdownpapers-core&lt;/artifactId&gt;
+    &lt;version&gt;${latest}&lt;/version&gt;
+&lt;/dependency&gt;
+
+
+</pre>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="Footer">
+        Copyright © 2011
+        <a href="http://www.tautua.org/">Tautua</a>.
+        All Rights Reserved.
+
+    </div>
+</div>
+
+
+</body>
+</html>

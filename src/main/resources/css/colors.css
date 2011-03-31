@@ -3,40 +3,6 @@ html, body {
   background-color: #CED8D8;
 }
 
-#Logo a {
-  background-color: transparent;
-}
-
-#Nav, #Nav a {
-  /*background: #F5F6F7 url(../images/grayfade.gif) top left repeat-y; /*#5D5D5D*/
-  /*border-left-color: #00b0d1;*/
-  color: #7C7C7C;
-}
-
-#Nav a {
-  background-color: transparent;
-}
-
-#Nav a:hover, #Nav strong {
-  background-color:#FDE9F4;
-  color:#854F61;
-}
-
-#Nav h5 {
-  /*
-  background-color:#FDE9F4;
-  color:#854F61;
-  background-color:#DEE5F2;
-
-  color:#5A6986;*/
-  border-bottom: 2px solid #F5F6F7;
-}
-
-#Content h1, #Content h2, #Content h3 {
-  /*color: #80E5FF;*/
-  color: #00A4C4;
-}
-
 a:link {
   background-color:#E0ECFF;
   color:#206CFF;
@@ -47,13 +13,12 @@ a:visited {
   color:#B36D00;
 }
 
-#publishDate, #projectVersion {
-  background-color:#FDE9F4;
-  color:#854F61;
+#Content h1, #Content h2, #Content h3 {
+  color: #00A4C4;
 }
 
 #Content th, #Content td {
-  border-color: #EEEEEE;
+  border-color: #f2f2f2;
 }
 
 #Footer {
@@ -64,4 +29,35 @@ a:visited {
 #Footer a {
   background-color: transparent;
   color: #FFFFFF;
+}
+
+#Logo a {
+  background-color: transparent;
+}
+
+#Nav, #Nav a {
+  color: #7C7C7C;
+}
+
+#Nav a {
+  background-color: transparent;
+}
+
+#Nav ul a:hover, #Nav ul strong {
+  background-color:#FDE9F4;
+  color:#854F61;
+}
+
+#Nav h5 {
+  border-bottom: 2px solid #F5F6F7;
+}
+
+#publishDate, #projectVersion {
+  background-color:#FDE9F4;
+  color:#854F61;
+}
+
+.source {
+  background-color:#FFF2CC;
+  color:#7F6000;
 }

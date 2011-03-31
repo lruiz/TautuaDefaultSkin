@@ -1,18 +1,21 @@
 body {
-  font-family: Tahoma, Arial, sans-serif;
+  font-family: arial, sans-serif;
 }
 
-#Frame {
-  font-size: 1.1em;
-  line-height: 1.4em;
+a {
+  text-decoration: none;
 }
 
-#Nav {
-  font-family: Arial, Helvetica, sans-serif;
+a:hover {
+  text-decoration: underline;
 }
 
-#Nav h5, #Nav strong {
-  font-weight: bold;
+pre {
+  font-size: 1.05em;
+}
+
+#Breadcrumbs {
+  font-size: 0.7em;
 }
 
 #Content h2 {
@@ -32,14 +35,11 @@ body {
   font-size: 0.8em;
 }
 
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-pre {
+#Frame {
   font-size: 1.1em;
+  line-height: 1.4em;
+}
+
+#Nav h5, #Nav strong {
+  font-weight: bold;
 }
