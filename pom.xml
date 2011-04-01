@@ -1,19 +1,40 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>org.tautua.maven.skins</groupId>
     <artifactId>tautua-default-skin</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-
     <name>Tautua Default Skin</name>
     <url>http://www.tautua.org</url>
-
     <organization>
-        <name>Tautua Software</name>
-        <url>http://www.tautua.com</url>
+        <name>Tautua</name>
+        <url>http://www.tautua.org</url>
     </organization>
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <scm>
+        <connection>scm:git:git@github.com:lruiz/TautuaDefaultSkin.git</connection>
+        <developerConnection>scm:git:git@github.com:lruiz/TautuaDefaultSkin.git</developerConnection>
+        <url>http://github.com/lruiz/TautuaDefaultSkin</url>
+    </scm>
+    <distributionManagement>
+        <snapshotRepository>
+            <id>Sonatype.snapshots</id>
+            <name>Sonatype Nexus Snapshots</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>Sonatype.staging</id>
+            <name>Sonatype Nexus Staging</name>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+        </repository>
+    </distributionManagement>
     <developers>
         <developer>
             <id>lruiz</id>
