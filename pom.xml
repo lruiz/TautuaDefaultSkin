@@ -40,6 +40,7 @@
             <id>lruiz</id>
             <name>Larry Ruiz</name>
             <organization>Tautua Software</organization>
+            <email>lruiz@tautua.org</email>
         </developer>
     </developers>
     <properties>
