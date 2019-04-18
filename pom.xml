@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.tautua.maven.skins</groupId>
     <artifactId>tautua-default-skin</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <packaging>jar</packaging>
     <name>Tautua Default Skin</name>
     <description>Skin for tautua projects</description>
