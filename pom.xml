@@ -26,12 +26,12 @@
     </scm>
     <distributionManagement>
         <snapshotRepository>
-            <id>Sonatype.snapshots</id>
+            <id>sonatype.snapshots</id>
             <name>Sonatype Nexus Snapshots</name>
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
         <repository>
-            <id>Sonatype.staging</id>
+            <id>sonatype.staging</id>
             <name>Sonatype Nexus Staging</name>
             <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
         </repository>
