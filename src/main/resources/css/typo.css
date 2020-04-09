@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Roboto+Condensed:400|Roboto:300,400,500';
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto+Mono:wght@400;500&family=Roboto:wght@400;700&display=swap');
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -18,7 +18,7 @@ b {
 }
 
 pre, code, kbd, samp, tt {
-  font-family:'Roboto', monospace;
+  font-family:'Roboto Mono', monospace;
   font-size: 1em;
   font-weight:300;
 }
@@ -29,7 +29,7 @@ pre, code, kbd, samp, tt {
 
 #Content h2, #Content h3 {
   font-family: 'Roboto Condensed', sans-serif;
-  font-weight: 400;
+  font-weight: bold;
 }
 
 #Content h2 {
